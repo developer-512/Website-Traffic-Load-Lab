@@ -1,0 +1,87 @@
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+.env
+.venv
+venv/
+ENV/
+
+# ===============================
+# OS / Editor
+# ===============================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# ===============================
+# Artifacts (NEVER COMMIT)
+# ===============================
+artifacts/
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.pdf
+*.html
+*.log
+
+# ===============================
+# Reports & Output
+# ===============================
+load_test_report.html
+latency.png
+cpu.png
+memory.png
+
+# ===============================
+# Runtime Data
+# ===============================
+results.json
+*.csv
+# *.json
+
+# ===============================
+# Config Files with Secrets
+# ===============================
+config/endpoints.json
+config/mysql.json
+config/thresholds.json
+
+# ===============================
+# SSH / Keys / Credentials
+# ===============================
+*.pem
+*.key
+id_rsa*
+known_hosts
+.ssh/
+
+# ===============================
+# Playwright / Browser Cache
+# ===============================
+playwright/.cache/
+.playwright/
+
+# ===============================
+# Matplotlib Cache
+# ===============================
+.matplotlib/
+
+# ===============================
+# Jupyter / Experiments
+# ===============================
+.ipynb_checkpoints/
+
+# ===============================
+# Build / Distribution
+# ===============================
+build/
+dist/

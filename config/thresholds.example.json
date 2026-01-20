@@ -1,0 +1,4 @@
+{
+  "slow_request_seconds": 1.0,
+  "error_rate_percent": 5
+}

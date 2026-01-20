@@ -1,0 +1,33 @@
+# Website Traffic Load Lab
+
+Advanced diagnostic load testing toolkit for PHP / MySQL applications.
+
+## Features
+- Concurrent async load testing
+- Weighted multi-endpoint traffic
+- Timeout & error classification
+- CPU & memory sampling
+- MySQL slow query correlation
+- Latency charts
+- Automatic Chrome screenshots
+- Rich HTML reports
+
+## Install
+```bash
+pip install -r requirements.txt
+playwright install chromium
+
+cp config/endpoints.example.json config/endpoints.json
+```
+
+## Run
+```bash
+python run.py --clients 25 --duration 60 --timeout 5
+```
+
+Report will be generated in:
+
+artifacts/reports/load_test_report.html
+
+
+
