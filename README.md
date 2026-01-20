@@ -16,8 +16,24 @@ Advanced diagnostic load testing toolkit for PHP / MySQL applications.
 ```bash
 pip install -r requirements.txt
 playwright install chromium
+```
 
+```bash
 cp config/endpoints.example.json config/endpoints.json
+cp config/mysql.example.json config/mysql.json
+cp config/thresholds.example.json config/thresholds.json
+```
+Add you website endpoints into config/endpoints.json
+
+```json
+
+[
+  {
+    "url": "https://example.com/",
+    "weight": 100
+  }
+]
+
 ```
 
 ## Run
